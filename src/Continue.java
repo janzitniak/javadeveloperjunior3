@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Continue {
     public static void main(String[] args) {
 
@@ -18,4 +20,6 @@ public class Continue {
         System.out.println("Koniec programu");
 
     }
+
+
 }
