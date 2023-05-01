@@ -5,6 +5,20 @@ public class Kniha {
     private String autor;
     private int rokVydania;
 
+    // Konstruktor sluzi na inializaciu fields (udajov triedy, resp. atribúty, resp. premenne)
+    public Kniha() {
+        // Inicializacia objektu Kniha
+        this.nazov = "-";
+        this.autor = "-";
+        this.rokVydania = 2000;
+    }
+
+    public Kniha(String nazov, String autor, int rokVydania) {
+        this.nazov = nazov;
+        this.autor = autor;
+        this.rokVydania = rokVydania;
+    }
+
     public String getNazov() {
         return nazov;
     }
