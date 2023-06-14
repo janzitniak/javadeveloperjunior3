@@ -25,6 +25,11 @@ public class DatoveTypyMain {
         System.out.println("desatinneCislofAkoString " + desatinneCislofAkoString);
         System.out.println("desatinneCislofAkoString2 " + desatinneCislofAkoString2);
 
+        // Konverzia Float na float
+        Float nejakeDesatinneCisloF = 1.2f;
+        float nejakeDesatinneCislof = nejakeDesatinneCisloF;
+
+        System.out.println("nejakeDesatinneCislof " + nejakeDesatinneCislof);
 
     }
 }

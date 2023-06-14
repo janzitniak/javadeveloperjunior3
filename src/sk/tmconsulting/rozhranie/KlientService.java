@@ -1,14 +1,14 @@
 package sk.tmconsulting.rozhranie;
 
-public class KlientService implements IKlientPrototyp {
+public class KlientService implements IKlientPrototyp, IOsobaPrototyp {
 
     @Override
-    public int akoCastoNavstevujeDanuSluzbu() {
+    public int akoCastoNavstevujeDanuSluzbu(Klient klient) {
         return 0;
     }
 
     @Override
-    public boolean jePocitacovoGramotny() {
+    public boolean jePocitacovoGramotny(Klient klient) {
         return false;
     }
 
@@ -17,4 +17,8 @@ public class KlientService implements IKlientPrototyp {
         System.out.println(klient);
     }
 
+    @Override
+    public boolean maPobytNaSlovensku() {
+        return false;
+    }
 }
